@@ -1,0 +1,253 @@
+name: fischl
+element: electro
+weapon_type: Bow
+base_stats:
+- Lv: '1'
+  Base HP: '770'
+  Base ATK: '20'
+  Base DEF: '50'
+  ATK%: '0'
+  CRIT Rate: '5'
+  CRIT DMG: '50'
+- Lv: '20'
+  Base HP: '1979'
+  Base ATK: '53'
+  Base DEF: '128'
+  ATK%: '0'
+  CRIT Rate: '5'
+  CRIT DMG: '50'
+- Lv: 20+
+  Base HP: '2555'
+  Base ATK: '68'
+  Base DEF: '165'
+  ATK%: '0'
+  CRIT Rate: '5'
+  CRIT DMG: '50'
+- Lv: '40'
+  Base HP: '3827'
+  Base ATK: '102'
+  Base DEF: '247'
+  ATK%: '0'
+  CRIT Rate: '5'
+  CRIT DMG: '50'
+- Lv: 40+
+  Base HP: '4236'
+  Base ATK: '113'
+  Base DEF: '274'
+  ATK%: '6'
+  CRIT Rate: '5'
+  CRIT DMG: '50'
+- Lv: '50'
+  Base HP: '4872'
+  Base ATK: '130'
+  Base DEF: '315'
+  ATK%: '6'
+  CRIT Rate: '5'
+  CRIT DMG: '50'
+- Lv: 50+
+  Base HP: '5418'
+  Base ATK: '144'
+  Base DEF: '350'
+  ATK%: '12'
+  CRIT Rate: '5'
+  CRIT DMG: '50'
+- Lv: '60'
+  Base HP: '6054'
+  Base ATK: '161'
+  Base DEF: '391'
+  ATK%: '12'
+  CRIT Rate: '5'
+  CRIT DMG: '50'
+- Lv: 60+
+  Base HP: '6463'
+  Base ATK: '172'
+  Base DEF: '418'
+  ATK%: '12'
+  CRIT Rate: '5'
+  CRIT DMG: '50'
+- Lv: '70'
+  Base HP: '7099'
+  Base ATK: '189'
+  Base DEF: '459'
+  ATK%: '12'
+  CRIT Rate: '5'
+  CRIT DMG: '50'
+- Lv: 70+
+  Base HP: '7508'
+  Base ATK: '200'
+  Base DEF: '485'
+  ATK%: '18'
+  CRIT Rate: '5'
+  CRIT DMG: '50'
+- Lv: '80'
+  Base HP: '8144'
+  Base ATK: '216'
+  Base DEF: '526'
+  ATK%: '18'
+  CRIT Rate: '5'
+  CRIT DMG: '50'
+- Lv: 80+
+  Base HP: '8553'
+  Base ATK: '227'
+  Base DEF: '553'
+  ATK%: '24'
+  CRIT Rate: '5'
+  CRIT DMG: '50'
+- Lv: '90'
+  Base HP: '9189'
+  Base ATK: '244'
+  Base DEF: '594'
+  ATK%: '24'
+  CRIT Rate: '5'
+  CRIT DMG: '50'
+normal_attack:
+  Lv1:
+    1-Hit DMG: 44.12%
+    2-Hit DMG: 46.78%
+    3-Hit DMG: 58.14%
+    4-Hit DMG: 57.71%
+    5-Hit DMG: 72.07%
+    Aimed Shot: 43.86%
+    Fully-Charged Aimed Shot: 124%
+    Plunge DMG: 56.83%
+    Low/High Plunge DMG: 113.63% / 141.93%
+  Lv2:
+    1-Hit DMG: 47.71%
+    2-Hit DMG: 50.59%
+    3-Hit DMG: 62.87%
+    4-Hit DMG: 62.4%
+    5-Hit DMG: 77.93%
+    Aimed Shot: 47.43%
+    Fully-Charged Aimed Shot: 133.3%
+    Plunge DMG: 61.45%
+    Low/High Plunge DMG: 122.88% / 153.49%
+  Lv3:
+    1-Hit DMG: 51.3%
+    2-Hit DMG: 54.4%
+    3-Hit DMG: 67.6%
+    4-Hit DMG: 67.1%
+    5-Hit DMG: 83.8%
+    Aimed Shot: 51%
+    Fully-Charged Aimed Shot: 142.6%
+    Plunge DMG: 66.08%
+    Low/High Plunge DMG: 132.13% / 165.04%
+  Lv4:
+    1-Hit DMG: 56.43%
+    2-Hit DMG: 59.84%
+    3-Hit DMG: 74.36%
+    4-Hit DMG: 73.81%
+    5-Hit DMG: 92.18%
+    Aimed Shot: 56.1%
+    Fully-Charged Aimed Shot: 155%
+    Plunge DMG: 72.69%
+    Low/High Plunge DMG: 145.35% / 181.54%
+  Lv5:
+    1-Hit DMG: 60.02%
+    2-Hit DMG: 63.65%
+    3-Hit DMG: 79.09%
+    4-Hit DMG: 78.51%
+    5-Hit DMG: 98.05%
+    Aimed Shot: 59.67%
+    Fully-Charged Aimed Shot: 164.3%
+    Plunge DMG: 77.31%
+    Low/High Plunge DMG: 154.59% / 193.1%
+  Lv6:
+    1-Hit DMG: 64.13%
+    2-Hit DMG: 68%
+    3-Hit DMG: 84.5%
+    4-Hit DMG: 83.88%
+    5-Hit DMG: 104.75%
+    Aimed Shot: 63.75%
+    Fully-Charged Aimed Shot: 173.6%
+    Plunge DMG: 82.6%
+    Low/High Plunge DMG: 165.17% / 206.3%
+  Lv7:
+    1-Hit DMG: 69.77%
+    2-Hit DMG: 73.98%
+    3-Hit DMG: 91.94%
+    4-Hit DMG: 91.26%
+    5-Hit DMG: 113.97%
+    Aimed Shot: 69.36%
+    Fully-Charged Aimed Shot: 186%
+    Plunge DMG: 89.87%
+    Low/High Plunge DMG: 179.7% / 224.45%
+  Lv8:
+    1-Hit DMG: 75.41%
+    2-Hit DMG: 79.97%
+    3-Hit DMG: 99.37%
+    4-Hit DMG: 98.64%
+    5-Hit DMG: 123.19%
+    Aimed Shot: 74.97%
+    Fully-Charged Aimed Shot: 198.4%
+    Plunge DMG: 97.14%
+    Low/High Plunge DMG: 194.23% / 242.61%
+  Lv9:
+    1-Hit DMG: 81.05%
+    2-Hit DMG: 85.95%
+    3-Hit DMG: 106.81%
+    4-Hit DMG: 106.02%
+    5-Hit DMG: 132.4%
+    Aimed Shot: 80.58%
+    Fully-Charged Aimed Shot: 210.8%
+    Plunge DMG: 104.41%
+    Low/High Plunge DMG: 208.77% / 260.76%
+  Lv10:
+    1-Hit DMG: 87.21%
+    2-Hit DMG: 92.48%
+    3-Hit DMG: 114.92%
+    4-Hit DMG: 114.07%
+    5-Hit DMG: 142.46%
+    Aimed Shot: 86.7%
+    Fully-Charged Aimed Shot: 223.2%
+    Plunge DMG: 112.34%
+    Low/High Plunge DMG: 224.62% / 280.57%
+  Lv11:
+    1-Hit DMG: 93.37%
+    2-Hit DMG: 99.01%
+    3-Hit DMG: 123.03%
+    4-Hit DMG: 122.12%
+    5-Hit DMG: 152.52%
+    Aimed Shot: 92.82%
+    Fully-Charged Aimed Shot: 235.6%
+    Plunge DMG: 120.27%
+    Low/High Plunge DMG: 240.48% / 300.37%
+  Lv12:
+    1-Hit DMG: 99.52%
+    2-Hit DMG: 105.54%
+    3-Hit DMG: 131.14%
+    4-Hit DMG: 130.17%
+    5-Hit DMG: 162.57%
+    Aimed Shot: 98.94%
+    Fully-Charged Aimed Shot: 248%
+    Plunge DMG: 128.2%
+    Low/High Plunge DMG: 256.34% / 320.18%
+  Lv13:
+    1-Hit DMG: 105.68%
+    2-Hit DMG: 112.06%
+    3-Hit DMG: 139.26%
+    4-Hit DMG: 138.23%
+    5-Hit DMG: 172.63%
+    Aimed Shot: 105.06%
+    Fully-Charged Aimed Shot: 263.5%
+    Plunge DMG: 136.12%
+    Low/High Plunge DMG: 272.19% / 339.98%
+  Lv14:
+    1-Hit DMG: 111.83%
+    2-Hit DMG: 118.59%
+    3-Hit DMG: 147.37%
+    4-Hit DMG: 146.28%
+    5-Hit DMG: 182.68%
+    Aimed Shot: 111.18%
+    Fully-Charged Aimed Shot: 279%
+    Plunge DMG: 144.05%
+    Low/High Plunge DMG: 288.05% / 359.79%
+  Lv15:
+    1-Hit DMG: 117.99%
+    2-Hit DMG: 125.12%
+    3-Hit DMG: 155.48%
+    4-Hit DMG: 154.33%
+    5-Hit DMG: 192.74%
+    Aimed Shot: 117.3%
+    Fully-Charged Aimed Shot: 294.5%
+    Plunge DMG: 151.98%
+    Low/High Plunge DMG: 303.9% / 379.59%
