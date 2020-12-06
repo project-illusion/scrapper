@@ -2,104 +2,202 @@ name: fischl
 element: electro
 weapon_type: Bow
 base_stats:
-- Lv: '1'
-  Base HP: '770'
-  Base ATK: '20'
-  Base DEF: '50'
-  ATK%: '0'
-  CRIT Rate: '5'
-  CRIT DMG: '50'
-- Lv: '20'
-  Base HP: '1979'
-  Base ATK: '53'
-  Base DEF: '128'
-  ATK%: '0'
-  CRIT Rate: '5'
-  CRIT DMG: '50'
-- Lv: 20+
-  Base HP: '2555'
-  Base ATK: '68'
-  Base DEF: '165'
-  ATK%: '0'
-  CRIT Rate: '5'
-  CRIT DMG: '50'
-- Lv: '40'
-  Base HP: '3827'
-  Base ATK: '102'
-  Base DEF: '247'
-  ATK%: '0'
-  CRIT Rate: '5'
-  CRIT DMG: '50'
-- Lv: 40+
-  Base HP: '4236'
-  Base ATK: '113'
-  Base DEF: '274'
-  ATK%: '6'
-  CRIT Rate: '5'
-  CRIT DMG: '50'
-- Lv: '50'
-  Base HP: '4872'
-  Base ATK: '130'
-  Base DEF: '315'
-  ATK%: '6'
-  CRIT Rate: '5'
-  CRIT DMG: '50'
-- Lv: 50+
-  Base HP: '5418'
-  Base ATK: '144'
-  Base DEF: '350'
-  ATK%: '12'
-  CRIT Rate: '5'
-  CRIT DMG: '50'
-- Lv: '60'
-  Base HP: '6054'
-  Base ATK: '161'
-  Base DEF: '391'
-  ATK%: '12'
-  CRIT Rate: '5'
-  CRIT DMG: '50'
-- Lv: 60+
-  Base HP: '6463'
-  Base ATK: '172'
-  Base DEF: '418'
-  ATK%: '12'
-  CRIT Rate: '5'
-  CRIT DMG: '50'
-- Lv: '70'
-  Base HP: '7099'
-  Base ATK: '189'
-  Base DEF: '459'
-  ATK%: '12'
-  CRIT Rate: '5'
-  CRIT DMG: '50'
-- Lv: 70+
-  Base HP: '7508'
-  Base ATK: '200'
-  Base DEF: '485'
-  ATK%: '18'
-  CRIT Rate: '5'
-  CRIT DMG: '50'
-- Lv: '80'
-  Base HP: '8144'
-  Base ATK: '216'
-  Base DEF: '526'
-  ATK%: '18'
-  CRIT Rate: '5'
-  CRIT DMG: '50'
-- Lv: 80+
-  Base HP: '8553'
-  Base ATK: '227'
-  Base DEF: '553'
-  ATK%: '24'
-  CRIT Rate: '5'
-  CRIT DMG: '50'
-- Lv: '90'
-  Base HP: '9189'
-  Base ATK: '244'
-  Base DEF: '594'
-  ATK%: '24'
-  CRIT Rate: '5'
-  CRIT DMG: '50'
+- - Name: Lv
+    Value: '1'
+  - Name: Base HP
+    Value: 770
+  - Name: Base ATK
+    Value: 20
+  - Name: Base DEF
+    Value: 50
+  - Name: ATK%
+    Value: 0
+  - Name: CRIT Rate
+    Value: 5
+  - Name: CRIT DMG
+    Value: 50
+- - Name: Lv
+    Value: '20'
+  - Name: Base HP
+    Value: 1979
+  - Name: Base ATK
+    Value: 53
+  - Name: Base DEF
+    Value: 128
+  - Name: ATK%
+    Value: 0
+  - Name: CRIT Rate
+    Value: 5
+  - Name: CRIT DMG
+    Value: 50
+- - Name: Lv
+    Value: 20+
+  - Name: Base HP
+    Value: 2555
+  - Name: Base ATK
+    Value: 68
+  - Name: Base DEF
+    Value: 165
+  - Name: ATK%
+    Value: 0
+  - Name: CRIT Rate
+    Value: 5
+  - Name: CRIT DMG
+    Value: 50
+- - Name: Lv
+    Value: '40'
+  - Name: Base HP
+    Value: 3827
+  - Name: Base ATK
+    Value: 102
+  - Name: Base DEF
+    Value: 247
+  - Name: ATK%
+    Value: 0
+  - Name: CRIT Rate
+    Value: 5
+  - Name: CRIT DMG
+    Value: 50
+- - Name: Lv
+    Value: 40+
+  - Name: Base HP
+    Value: 4236
+  - Name: Base ATK
+    Value: 113
+  - Name: Base DEF
+    Value: 274
+  - Name: ATK%
+    Value: 6
+  - Name: CRIT Rate
+    Value: 5
+  - Name: CRIT DMG
+    Value: 50
+- - Name: Lv
+    Value: '50'
+  - Name: Base HP
+    Value: 4872
+  - Name: Base ATK
+    Value: 130
+  - Name: Base DEF
+    Value: 315
+  - Name: ATK%
+    Value: 6
+  - Name: CRIT Rate
+    Value: 5
+  - Name: CRIT DMG
+    Value: 50
+- - Name: Lv
+    Value: 50+
+  - Name: Base HP
+    Value: 5418
+  - Name: Base ATK
+    Value: 144
+  - Name: Base DEF
+    Value: 350
+  - Name: ATK%
+    Value: 12
+  - Name: CRIT Rate
+    Value: 5
+  - Name: CRIT DMG
+    Value: 50
+- - Name: Lv
+    Value: '60'
+  - Name: Base HP
+    Value: 6054
+  - Name: Base ATK
+    Value: 161
+  - Name: Base DEF
+    Value: 391
+  - Name: ATK%
+    Value: 12
+  - Name: CRIT Rate
+    Value: 5
+  - Name: CRIT DMG
+    Value: 50
+- - Name: Lv
+    Value: 60+
+  - Name: Base HP
+    Value: 6463
+  - Name: Base ATK
+    Value: 172
+  - Name: Base DEF
+    Value: 418
+  - Name: ATK%
+    Value: 12
+  - Name: CRIT Rate
+    Value: 5
+  - Name: CRIT DMG
+    Value: 50
+- - Name: Lv
+    Value: '70'
+  - Name: Base HP
+    Value: 7099
+  - Name: Base ATK
+    Value: 189
+  - Name: Base DEF
+    Value: 459
+  - Name: ATK%
+    Value: 12
+  - Name: CRIT Rate
+    Value: 5
+  - Name: CRIT DMG
+    Value: 50
+- - Name: Lv
+    Value: 70+
+  - Name: Base HP
+    Value: 7508
+  - Name: Base ATK
+    Value: 200
+  - Name: Base DEF
+    Value: 485
+  - Name: ATK%
+    Value: 18
+  - Name: CRIT Rate
+    Value: 5
+  - Name: CRIT DMG
+    Value: 50
+- - Name: Lv
+    Value: '80'
+  - Name: Base HP
+    Value: 8144
+  - Name: Base ATK
+    Value: 216
+  - Name: Base DEF
+    Value: 526
+  - Name: ATK%
+    Value: 18
+  - Name: CRIT Rate
+    Value: 5
+  - Name: CRIT DMG
+    Value: 50
+- - Name: Lv
+    Value: 80+
+  - Name: Base HP
+    Value: 8553
+  - Name: Base ATK
+    Value: 227
+  - Name: Base DEF
+    Value: 553
+  - Name: ATK%
+    Value: 24
+  - Name: CRIT Rate
+    Value: 5
+  - Name: CRIT DMG
+    Value: 50
+- - Name: Lv
+    Value: '90'
+  - Name: Base HP
+    Value: 9189
+  - Name: Base ATK
+    Value: 244
+  - Name: Base DEF
+    Value: 594
+  - Name: ATK%
+    Value: 24
+  - Name: CRIT Rate
+    Value: 5
+  - Name: CRIT DMG
+    Value: 50
 normal_attack:
   Lv1:
     1-Hit DMG: 44.12%
